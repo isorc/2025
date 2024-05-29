@@ -1,2 +1,2 @@
 # ISORC 2025, Toulouse, France
-isorc.github.io/2025/
+# https://isorc.github.io/2025/
