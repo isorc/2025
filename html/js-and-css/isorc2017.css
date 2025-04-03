@@ -212,3 +212,20 @@ html, body
 	color: #FF0000;
 	font-weight: bold;
 }
+.table {
+	display: flex;
+	justify-content: somevalue;
+	align-items: somevalue;
+	margin-top: Xpx;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	margin: Xpx 0;
+}
+
+
+.table td, .table th {
+  width:  Xpx;
+  border: Xpx solid #ddd;
+  border-collapse: collapse;
+  padding: Xpx;
+}

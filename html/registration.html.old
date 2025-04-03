@@ -62,54 +62,7 @@
     ga('send', 'pageview');
   </script>
   </head>
-  <style>
 
-    table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-    }
-
-table.center {
-  margin-left: auto; 
-  margin-right: auto;
-}
-.styled {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgb(53, 185, 19);
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  );
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-
-.styled:hover {
-  background-color: rgba(255, 0, 0, 1);
-}
-
-.styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-.center {
-  border: 5px solid;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-  </style>
   <body>
     <div class="mainBody">
       <div id="titleWrapper">
@@ -277,7 +230,7 @@ table.center {
         <div class="contentArea">
           <div class="contentTitle">
             <!-- InstanceBeginEditable name="TitleRegion" -->REGISTRATION
-            INFORMATION (In PROGRESS)
+            INFORMATION
             <!-- InstanceEndEditable -->
           </div>
           <!-- InstanceBeginEditable name="ContentRegion" -->
@@ -310,148 +263,113 @@ table.center {
         <br />
         <center>
 
-          <h3>ISORC 2025 will be held in <a href="https://www.laas.fr/en/"
-              target="_blank">
-              LAAS-CNRS, Toulouse, France</a> </h3>
-
+          <h3>ISORC 2025 will be held in <a href="https://www.laas.fr/en/" target="_blank"> 
+            LAAS-CNRS, Toulouse, France</a> </h3>
+              
         </center>
 
-        <!-- <h3>Registration infos:</h3> -->
+          <!-- <h3>Registration infos:</h3> -->
+         
+          <!-- <br/> -->
+          <h3>Registration Rules:</h3>
+          <ul>
+      
+             <li> An accepted paper will be published in the proceedings only if the final camera-ready version is accompanied by 
+              the payment of at least one <strong> AUTHOR Regular REGISTRATION</strong> type (either <strong> IEEE Member or Non - IEEE Member</strong>) for one of the authors 
+              (even if all authors of the paper are students, i.e., a student registration does not cover any paper).
+            </li>
+            <li> Each regular registration covers a maximum of one paper.       </li>
+            <li> IEEE reserves the right to exclude a paper from distribution after the conference, including IEEE Xplore 
+              Digital Library, if the paper is not presented (onsite or online) by the author at the conference.</li>
+              <li><p style="color:blue;"> Extra Pages, Max 2 pages for each paper: <strong>	200€</strong>.</p></li>
+              <li><p style="color:blue;"> One Extra Gala Dinner Voucher, including visit to Airbus assembly plant <strong>150€</strong>, will be managed onsite</p>  </li>
+          </ul>
 
-        <!-- <br/> -->
-        <h3>Registration Rules:</h3>
-        <ul>
 
-          <li> An accepted paper will be published in the proceedings only if
-            the final camera-ready version is accompanied by
-            the payment of at least one <strong> AUTHOR Regular
-              REGISTRATION</strong> type (either <strong> IEEE Member or Non -
-              IEEE Member</strong>) for one of the authors
-            (even if all authors of the paper are students, i.e., a student
-            registration does not cover any paper).
-          </li>
-          <li> Each regular registration covers a maximum of one paper. </li>
-          <li> IEEE reserves the right to exclude a paper from distribution
-            after the conference, including IEEE Xplore
-            Digital Library, if the paper is not presented (onsite or online) by
-            the author at the conference.</li>
-          <li><p style="color:blue;"> Extra Pages, Max 2 pages for each paper:
-              <strong> 200€</strong>.</p></li>
-          <li><p style="color:blue;"> One Extra Gala Dinner Voucher, including
-              visit to Airbus assembly plant <strong>150€</strong>.</p> </li>
-        </ul>
-
-        <table style="width: 80%" class="center">
-          <tr>
-            <th>Registration Types</th>
-            <th>Fees</th>
-          </tr>
-          <tr>
-            <td>Early Author IEEE Regular Registration fees, up to April 20,
-              2025 (includes: admission to all
-              sessions, proceedings, coffee breaks, lunch, and social
-              events)</td>
-            <td><strong>680€</strong></td>
-          </tr>
-          <tr>
-            <td>Early Author non IEEE Regular registration fees, up to April 20,
-              2025 (includes: admission to all sessions,
-              proceedings, coffee breaks, lunch, and social events)</td>
-            <td><strong>780€</strong></td>
-          </tr>
-          <tr>
-            <td>Late Author IEEE Registration fees, after April 20, 2025
-              (includes: admission to all sessions, proceedings,
-              coffee breaks, and lunch, and social events)</td>
-            <td><strong>780€</strong></td>
-          </tr>
-          <tr>
-            <td>Late Author non IEEE registration fees, after April 1, 2024
-              (includes: admission to all sessions, proceedings,
-              coffee breaks, and lunch, and social events)</td>
-            <td><strong>880€</strong></td>
-          </tr>
-          <tr>
-            <td>Non-author Student IEEE registration (includes: admission to all
-              sessions, proceedings, coffee breaks, and lunch, and social
-              events)</td>
-            <td><strong>450€</strong></td>
-          </tr>
-          <tr>
-            <td>Non-author non-IEEE registration (includes: admission to all
-              sessions, proceedings, coffee breaks, and lunch, and social
-              events)</td>
-            <td><strong>550€</strong></td>
-          </tr>
-          <tr>
-            <td>IEEE Life member fees (includes: admission to all sessions,
-              proceedings, coffee breaks, and lunch, and social events)</td>
-            <td><strong>360€</strong></td>
-          </tr>
-          <tr>
-            <td>Companion/Guest (includes: admission to all sessions,
-              proceedings, coffee breaks, and lunch, and social events)</td>
-            <td><strong>360€</strong></td>
-          </tr>
-          <tr>
-            <td>One Extra Gala Dinner Voucher, including visit to Airbus
-              Assembly Plant, Prestige Menu, Gala Dinner, and Transportation
-              from LAAS-CNRS.</td>
-            <td><strong>150€</strong></td>
-          </tr>
-        </table>
-        <br /><br>
-        <div class="container" style="text-align: center;">
-          <!-- Notre contenu -->
-          <button class="favorite styled" type="button">
-            <a href="https://isorc.github.io/2025/html/registration.html"
-              target="_blank"><img decoding="async"
-                class="aligncenter img-responsive"
-                src="https://smartnets.ieee.tn/wp-content/uploads/sites/69/2019/10/Nouvelle-image-25-300x84.png"
-                alt width="250" height="84">
-            </a>
-          </button>
-        </div>
-        <p>
-          <h4>
-            Payment for extra pages 200€ (Max 2 pages for each paper): <a
-              href="https://isorc.github.io/2025/html/registration.html">payment link
-              (coming soon)</a>
-          </h4>
-          <h4>Wire transfert: Please send a wire Transfert to IEEE France
-            Section using the <a
-              href="../iban_IEEE_FRANCE_SECTION_00010221721.pdf">IBAN -
-              SWIFT</a></h4>
-        </p>
-        <br />
-        <p>
-          <h4>
-            Payment for extra Gala Dinner Voucher, including visit to Airbus
-            assembly plant 150€: <a
-              href="https://isorc.github.io/2025/html/registration.html">payment link
-              (coming soon)</a>
+          <table style= "width: 80%" class="center">
+            <tr>
+              <th>Registration Types</th>
+              <th>Fees</th>
+            </tr>
+            <tr>
+              <td>Early Author IEEE Regular Registration fees, up to April 20, 2025 (includes: admission to all 
+                sessions, proceedings, coffee breaks,  lunch, and social events)</td>
+              <td><strong>680€</strong></td>
+            </tr>
+            <tr>
+              <td>Early Author non IEEE Regular registration fees, up to April 20, 2025 (includes: admission to all sessions, 
+                proceedings, coffee breaks, lunch, and social events)</td>
+              <td><strong>780€</strong></td>
+            </tr>
+            <tr>
+              <td>Late Author IEEE Registration fees, after April 20, 2025 (includes: admission to all sessions, proceedings, 
+                coffee breaks, and lunch, and social events)</td>
+              <td><strong>780€</strong></td>
+            </tr>
+            <tr>
+              <td>Late Author non IEEE registration fees, after April 1, 2024 (includes: admission to all sessions, proceedings, 
+                coffee breaks, and lunch, and social events)</td>
+              <td><strong>880€</strong></td>
+            </tr>
+            <tr>
+              <td>Non-author Student IEEE registration (includes: admission to all sessions, proceedings, coffee breaks, and lunch, and social events)</td>
+              <td><strong>450€</strong></td>
+            </tr>
+            <tr>
+              <td>Non-author non-IEEE registration (includes: admission to all sessions, proceedings, coffee breaks, and lunch, and social events)</td>
+              <td><strong>550€</strong></td>
+            </tr>
+            <tr>
+              <td>IEEE Life member fees (includes: admission to all sessions, proceedings, coffee breaks, and lunch, and social events)</td>
+              <td><strong>360€</strong></td>
+            </tr>
+          </table>
+          <br/><br>
+         <div class="container">
+        <!-- Notre contenu -->
+        <button class="favorite styled" type="button">
+            <a href="https://isorc.github.io/2024/registration.html" 
+            target="_blank"
+            ><img decoding="async" 
+            class="aligncenter img-responsive" 
+            src="https://smartnets.ieee.tn/wp-content/uploads/sites/69/2019/10/Nouvelle-image-25-300x84.png" 
+            alt="" width="250" height="84">
+        </a>
+    </button>
+    </div>
+    <p>
+      <h4>
+      Payment for extra pages  200€ (Max 2 pages for each paper):  <a href="https://isorc.github.io/2024/registration.html">payment link</a>
+    </h4>
+    </p>
+    <br/>
+    <p>
+      <h4>
+      Payment for extra Gala Dinner Voucher, including visit to Airbus assembly plant 150€:  <a href="https://isorc.github.io/2024/registration.html">payment link</a>
+    </p>
+    
+    </h4>     
+          <p>
+            Please email to
+            <a href="mailto:akram.hakiri@gmail.com">registration assistance</a> if you need any registration assistance.            
           </p>
-
-        </h4>
-        <p>
-          Please email to
-          <a href="mailto:akram.hakiri@gmail.com">registration assistance</a> if
-          you need any registration assistance.
-        </p>
-        <p>
-          For questions regarding author submissions, please
-          <a href="mailto:akram.hakiri@gmail.com”">Reach out to us</a>
-        </p>
-        <p>
-          The
-          <b>conference
-            <a href="https://isorc.github.io/2025/html/program.html">Program
-              Schedule</a></b>
-          and proceedings will be available soon.
-        </p>
-        <p><br /></p>
-        <p>Thank you for your understanding and patience.</p>
-        <br />
+          <p>
+            For questions regarding author submissions, please
+            <a href="mailto:akram.hakiri@gmail.com”">Reach out to us</a>
+          </p>
+          <p>
+            The
+            <b
+              >conference  
+              <a href="https://isorc.github.io/2024/html/program.html"
+                >Program Schedule</a
+              ></b>
+            and proceedings will be available soon.
+          </p>
+          <p><br /></p>
+          <p>Thank you for your understanding and patience.</p>
+          <br />
+          
 
         <br />
 
@@ -461,8 +379,7 @@ table.center {
         </div>
         <p> We acknowledge support from the following.</p>
         <table style="width: 100%">
-          <tbody>
-            <tr>
+          <tbody> <tr>
               <td><a href="https://www.computer.org/" target="_blank"><img
                     src="resources/CS-LOGO.jpeg" width="200"
                     border="0" /></a></td>
