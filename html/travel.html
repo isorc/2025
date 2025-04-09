@@ -55,6 +55,31 @@
     ga('create', 'Your ID', 'auto');
     ga('send', 'pageview');
   </script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
 </head>
 
 <body>
@@ -258,6 +283,25 @@
           Cité de l’espace, from the Place du Capitole to the Airbus factories, 
           your stay in Toulouse is sure to be full of delight and discovery.
         </p>
+
+        <!-- <img src="./gfx/bannerPics/capitole3.jpg" alt="Trulli" width="500" height="333">
+        <img src="./gfx/bannerPics/jardin.jpg" alt="Trulli" width="500" height="333">
+        <img src="./gfx/bannerPics/jardin1.jpg" alt="Trulli" width="500" height="333">
+        <img src="./gfx/bannerPics/jardin_japonais.jpg" alt="Trulli" width="500" height="333"> -->
+
+
+        <div class="row">
+          <div class="column"><a href="https://www.toulouse-tourisme.com/activite/le-capitole-hotel-de-ville/" target="_blank">
+            <img src="./gfx/bannerPics/capitole3.jpg" alt="Snow" style="width:100%"></a>
+          </div>
+          <div class="column"><a href="https://metropole.toulouse.fr/annuaire/jardin-japonais-pierre-baudis" target="_blank">
+            <img src="./gfx/bannerPics/jardin.jpg" alt="Forest" style="width:100%"></a>
+          </div>
+          <div class="column"><a href="https://www.youtube.com/watch?v=jqnmr6v2rCg" target="_blank">
+            <img src="/gfx/bannerPics/airbus-a380-factory.jpg" alt="Mountains" style="width:100%"></a>
+          </div>
+        </div>
+        
 
         <p>You can find more details <a href="https://www.toulouse-tourisme.com/en/what-to-see-and-do/"> Here</a> </p>
         <br />
