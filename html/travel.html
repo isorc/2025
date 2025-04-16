@@ -55,6 +55,31 @@
     ga('create', 'Your ID', 'auto');
     ga('send', 'pageview');
   </script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
 </head>
 
 <body>
@@ -194,10 +219,58 @@
          
         </div>
         <p>
-          Further details will be coming soon!
-        </p>
+          The conference will held in Toulouse, France. <br/>
+          Toulouse is weel deserved by high quality public transportation, such buses, 
+          metro, tramway, train, airports, etc.</br>
 
-        <p>
+          The<a href="https://www.toulouse.aeroport.fr/en">Toulouse Blagnac Airport</a> 
+          is the main airport in Toulouse. 
+        </p>
+        There is either the bus schttle from Toulouse Airport to Toulouse City Center. 
+        You need to book a ticket either inside the bus or from the available 
+        tickets distributor. It is around 10€ one-way. The durationis 15-30 minutes depending 
+        on the traffic jam.
+      </br>
+      The Tram from Toulouse Airport to Toulouse City Center is also available, but it takes 
+      40-60 minutes to joint Toulouse city center. 
+
+      More details about Tram, shuttle and bus to/from the airport can be 
+      find <a href="https://www.toulouse.aeroport.fr/en/transports/public-transport">here.</a>
+
+      <br> Airport taxis are also available in front of the main terminal. 
+      Further details is available on Airport taxis 
+      <a href="https://www.toulouse.aeroport.fr/en/transports/taxis">website</a>.
+
+      <p> There are many afooradable hotels in Toulouse City Center, which are easy to 
+        access using public transportation to and from the conference location. </br>
+        The metro B is the main line to go from Jean Jaures Metro station to University of 
+        Toulouse - Paul Sabatier, which is close to 
+        <a href="https://www.laas.fr/fr/">LAAS-CNRS</a> . 
+        A Metro Ticket that can also be used for bus, is less then 2€.</br>
+        
+        You can find more details about 
+        transportation in <a href="https://www.tisseo.fr/en">Tisseo</a> website.
+
+        
+          <div class="contentTitle">
+            <!-- InstanceBeginEditable name="TitleRegion" --> Hotels & Accommodation
+  
+            <!-- InstanceEndEditable -->
+          </div>
+
+            </p>
+            <p> Here are some links to afforadable hotels in Toulouse City Center:
+              <ul>
+                <li> <a href="https://hotelatoulouse.com/">hotel a toulouse</a> </li>
+                <li> <a href="https://hotel-oursblanc.com/eng/">Hotel Ours Blanc</a>: Three hotels</li>
+                <li> <a href="https://toulousecapitole-plazahotel.com/">Toulouse Capitole Plaza Hotel</a>" </li>
+                <li> <a href="https://hotel-capitole.com/">hotel capitole</a> </li>
+                <li> <a href="https://all.accor.com/hotel/1091/index.en.shtml"> Accor Hotel</a> </li>
+                <li> <a href="https://www.grandbalconhotel.com/fr/">Grand balcon Hotel/a> </li>
+                <li> <a href="https://www.grand-hotel-opera.com/en">Grand Hôtel de l'Opéra à Toulouse</a> </li>
+              </ul>
+
+            </p>
         <div class="contentTitle">
           <!-- InstanceBeginEditable name="TitleRegion" -->Sightseeing &
           Tourism Attraction
@@ -206,11 +279,31 @@
         </div>
 
         <p>
-          Further details will be coming soon!
-
+          Exceptional heritage: From the Basilica of Saint-Sernin to the 
+          Cité de l’espace, from the Place du Capitole to the Airbus factories, 
+          your stay in Toulouse is sure to be full of delight and discovery.
         </p>
 
-        <p></p>
+        <!-- <img src="./gfx/bannerPics/capitole3.jpg" alt="Trulli" width="500" height="333">
+        <img src="./gfx/bannerPics/jardin.jpg" alt="Trulli" width="500" height="333">
+        <img src="./gfx/bannerPics/jardin1.jpg" alt="Trulli" width="500" height="333">
+        <img src="./gfx/bannerPics/jardin_japonais.jpg" alt="Trulli" width="500" height="333"> -->
+
+
+        <div class="row">
+          <div class="column"><a href="https://www.toulouse-tourisme.com/activite/le-capitole-hotel-de-ville/" target="_blank">
+            <img src="./gfx/bannerPics/capitole3.jpg" alt="Snow" style="width:100%"></a>
+          </div>
+          <div class="column"><a href="https://metropole.toulouse.fr/annuaire/jardin-japonais-pierre-baudis" target="_blank">
+            <img src="./gfx/bannerPics/jardin.jpg" alt="Forest" style="width:100%"></a>
+          </div>
+          <div class="column"><a href="https://www.youtube.com/watch?v=jqnmr6v2rCg" target="_blank">
+            <img src="/gfx/bannerPics/airbus-a380-factory.jpg" alt="Mountains" style="width:100%"></a>
+          </div>
+        </div>
+        
+
+        <p>You can find more details <a href="https://www.toulouse-tourisme.com/en/what-to-see-and-do/"> Here</a> </p>
         <br />
         <br />
         <!-- InstanceEndEditable -->
